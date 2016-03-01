@@ -13,6 +13,14 @@
 **free mem:**
 ```free -h```
 
+**root user**
+```
+sudo -u root zsh
+```
+```
+whoami
+```
+
 **user add / del / set password:**
 ```
 useradd -m user.name
