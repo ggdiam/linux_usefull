@@ -14,3 +14,8 @@ docker inspect training/webapp
 ```
 docker run --rm -ti -v /Users/alex/docker:/home ubuntu /bin/bash
 ```
+
+**docker-machine**
+```
+docker-machine
+```
