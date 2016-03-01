@@ -4,3 +4,8 @@
 ```
 docker run --rm -ti training/webapp /bin/bash
 ```
+
+**see image**
+```
+docker inspect training/webapp
+```
