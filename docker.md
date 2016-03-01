@@ -9,3 +9,8 @@ docker run --rm -ti training/webapp /bin/bash
 ```
 docker inspect training/webapp
 ```
+
+**mount folder /Users/alex/docker to image folder /home***
+```
+docker run --rm -ti -v /Users/alex/docker:/home ubuntu /bin/bash
+```
