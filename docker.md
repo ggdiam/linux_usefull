@@ -24,3 +24,13 @@ docker run --rm -it -p 80:8080 image-name
 ```
 docker-machine ip
 ```
+
+**save image to file**
+```
+docker save -o <save image to path> <image name>
+```
+**load image from file**
+```
+docker load -i <path to image tar file>
+```
+
