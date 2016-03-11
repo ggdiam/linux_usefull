@@ -61,3 +61,11 @@ ps  -ef | grep $$ | grep -v grep
 ```
 echo $SHELL
 ```
+
+**utility installed**
+```
+whereis bash
+```
+```
+which bash
+```
