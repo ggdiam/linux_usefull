@@ -40,6 +40,12 @@ grep developers /etc/group
 sudo adduser user.name root
 ```
 
+**change owner**
+```chown alex myfile.txt```
+
+**change group**
+```chgrp alex myfile.txt```
+
 **show user groups:**
 ```groups user.name```
 
