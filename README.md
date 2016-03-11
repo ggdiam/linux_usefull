@@ -49,3 +49,15 @@ sudo adduser user.name root
 **show user groups:**
 ```groups user.name```
 
+**determine shell type**
+```
+echo $0
+```
+```
+ps  -ef | grep $$ | grep -v grep
+```
+
+**path to shell**
+```
+echo $SHELL
+```
