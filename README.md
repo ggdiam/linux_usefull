@@ -1,5 +1,8 @@
 ## Linux usefull commands
 
+**set bash at login**
+```sudo usermod -s /bin/bash username```
+
 **restart bash:**
 ```. ~/.bashrc```
 
