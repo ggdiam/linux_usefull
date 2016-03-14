@@ -34,3 +34,12 @@ docker save -o <save image to path> <image name>
 docker load -i <path to image tar file>
 ```
 
+**see remote images**
+```
+http://[local_repo]/v2/_catalog
+```
+
+**see remote image tags**
+```
+http://[local_repo]/v2/[image_name]/tags/list
+```
