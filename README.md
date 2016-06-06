@@ -24,6 +24,20 @@ sudo -u root zsh
 whoami
 ```
 
+**root sudoers edit**
+```
+visudo
+```
+
+**show users**
+```
+cut -d: -f1 /etc/passwd
+```
+**show groups**
+```
+cut -d: -f1 /etc/group
+```
+
 **user add / del / set password:**
 ```
 useradd -m user.name
