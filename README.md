@@ -1,5 +1,8 @@
 ## Linux usefull commands
 
+**copy ssh pub**
+```cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"```
+
 **set bash at login**
 ```sudo usermod -s /bin/bash username```
 
