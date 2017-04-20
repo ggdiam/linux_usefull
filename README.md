@@ -1,5 +1,8 @@
 ## Linux usefull commands
 
+**make rsa key**
+ssh-keygen -t rsa
+
 **copy ssh pub**
 ```cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"```
 
