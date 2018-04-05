@@ -95,3 +95,6 @@ whereis bash
 ```
 which bash
 ```
+
+**File system rw**
+`mount -o rw,remount /`
