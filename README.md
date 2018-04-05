@@ -97,4 +97,6 @@ which bash
 ```
 
 **File system rw**
-`mount -o rw,remount /`
+```
+mount -o rw,remount /
+```
