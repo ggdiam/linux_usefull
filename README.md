@@ -3,7 +3,8 @@
 **version**
 ```cat /etc/issue```
 
-```root@devspaces-t057bkst:/home/test# cat /etc/*release```
+**version more**
+```cat /etc/*release```
 
 **make rsa key**
 ```ssh-keygen -t rsa```
