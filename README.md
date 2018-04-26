@@ -1,5 +1,10 @@
 ## Linux usefull commands
 
+**version**
+```cat /etc/issue```
+
+```root@devspaces-t057bkst:/home/test# cat /etc/*release```
+
 **make rsa key**
 ```ssh-keygen -t rsa```
 
