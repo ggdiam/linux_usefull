@@ -22,7 +22,7 @@ docker run -d -p 5000:5000 \
 registry:latest
 ```
 
-**Auth custom repo
+**Auth custom repo**
 ```
 docker login localhost:5000
 ```
