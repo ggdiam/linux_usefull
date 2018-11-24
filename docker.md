@@ -1,6 +1,6 @@
 ## Docker usefull commands
 
-**Docker repo with auth**
+**Docker provate repo with auth**
 ```
 mkdir auth
 ```
