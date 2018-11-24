@@ -22,6 +22,11 @@ docker run -d -p 5000:5000 \
 registry:latest
 ```
 
+**Auth custom repo
+```
+docker login localhost:5000
+```
+
 **Docker auto start containers**
 ```
 docker run -dit --restart always  --name mongo -p 27017:27017 -v /data/db:/data/db mvertes/alpine-mongo
