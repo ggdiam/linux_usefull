@@ -1,7 +1,7 @@
 ##Docker auto start containers
 ```
 docker run -dit --restart always  --name mongo -p 27017:27017 -v /data/db:/data/db mvertes/alpine-mongo
-docker run -d -p 5000:5000 --restart always --name registry registry:latest
+docker run -d -p 5000:5000 -v /data/registry:/var/lib/registry --restart always --name registry registry:latest
 ```
 
 ##Docker usefull commands
