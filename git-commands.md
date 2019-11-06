@@ -1,5 +1,11 @@
 ##Usefull git commands
 
+**merge new existing repo**
+```
+git remote add origin [repo]
+git pull origin master --allow-unrelated-histories
+```
+
 **windows long path support**
 ```
 git config --system core.longpaths true
