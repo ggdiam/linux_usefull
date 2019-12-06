@@ -1,4 +1,4 @@
-##Usefull git commands
+## Usefull git commands
 
 # How to merge 2 repos into existing one
 
