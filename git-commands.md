@@ -1,5 +1,33 @@
 ##Usefull git commands
 
+# How to merge 2 repos into existing one
+
+Add second repo to existing one
+```
+git remote add second-repo https://github.com/user/second-repo.git
+git pull --allow-unrelated-histories second-repo master
+```
+Merge conflicts if exists
+
+Commit merge
+
+Remove second repo origin
+```
+git remote -v
+git remote remove second-repo
+```
+
+Push all changes to existing repo origin
+```
+git push
+```
+
+Profit! :)
+
+---
+
+
+
 **merge new existing repo**
 ```
 git remote add origin [repo]
