@@ -1,5 +1,8 @@
 ## Linux usefull commands
 
+**delete folders older than 7 days without recursion**
+```find /root/mongodb/tarkov-market-* -maxdepth 0 -type d -ctime +7 -exec rm -rf {} \;```
+
 **version**
 ```cat /etc/issue```
 
