@@ -1,5 +1,10 @@
 ## Linux usefull commands
 
+**Folders size**
+```
+du -sh ./* | sort -n
+```
+
 **Delete folders older than 7 days without recursion**
 ```
 find /root/mongodb/tarkov-market-* -maxdepth 0 -type d -ctime +7 -exec rm -rf {} \;
